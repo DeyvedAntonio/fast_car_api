@@ -2,7 +2,7 @@ from fastapi import APIRouter
 
 
 router = APIRouter(
-    prefix='/spi/v1/cars',
+    prefix='/api/v1/cars',
     tags=['cars'],
 )
 

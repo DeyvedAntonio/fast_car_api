@@ -13,6 +13,6 @@ app = FastAPI(
 app.include_router(car_router)
 
 
-@app.ger('/')
+@app.get('/')
 def read_root():
     return {'status': 'OK'}
