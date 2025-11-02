@@ -1,0 +1,19 @@
+[project]
+name = "Fast Car API"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Deyved Antonio",email = "deyved.antonio@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard] (>=0.120.4,<0.121.0)"
+]
+
+[tool.poetry]
+packages = [{include = "fast_car_api", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
